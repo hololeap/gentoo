@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,6 +19,7 @@ IUSE="html twoside"
 #   paralist, tocbibind
 # texlive-mathscience for algorithm, algorithmic
 BDEPEND="dev-texlive/texlive-bibtexextra
+	dev-texlive/texlive-fontsextra
 	>=dev-texlive/texlive-latexextra-2020-r2
 	dev-texlive/texlive-mathscience
 	virtual/latex-base
